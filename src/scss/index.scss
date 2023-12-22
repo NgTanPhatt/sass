@@ -1,0 +1,12 @@
+// Import vào. để có thể biên dịch
+@use "components/header";
+@use "components/hero";
+@use "base/reset.scss";
+
+// -- Utils --
+.container {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
