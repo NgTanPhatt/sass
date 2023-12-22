@@ -35,3 +35,21 @@ File quan ly du an cua chung ta <br>
 Loai bo nhung folder hay file khong muon commit len git <br>
 
 - Loai bo node_modules: vi qua nang. <br>
+
+# Bien dich file scss -> css
+
+-          [INPUT]                [OUTPUT]
+- npx sass src/scss/index.scss dist/index.css
+
+# Thu muc public
+
+- Chua file (static): images, fonts, audios, icons
+
+# 2 dev a - b
+npm i: cai tat ca thu vien trong du an
+npx vite == npm run dev
+
+# File scss: bat dau bang dau "\_"
+
+- file do se khong duoc bien dich tat ca, tru nhung cai nao duoc tai su dung o noi khac
+- Thuong dung de khai bao bien, mixin.
