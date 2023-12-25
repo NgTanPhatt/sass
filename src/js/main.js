@@ -22,7 +22,7 @@ document.querySelectorAll(".nav-link").forEach((nav) => {
  */
 
 /**
- * innerHTML vs innerText vs textContent
+ * 1. innerHTML vs innerText vs textContent
  */
 document.querySelectorAll(".card").forEach((card) => {
   const btn = card.querySelector("button.more");
@@ -42,3 +42,12 @@ document.querySelectorAll(".card").forEach((card) => {
     }
   };
 });
+
+// -- Footer --
+const year = new Date().getFullYear();
+document.querySelector("footer .created-by").innerHTML = `NgoDai © ${year}`;
+
+// -- Back To Top --
+document.querySelector(".back-to-top").onclick = () => {
+  window.scroll({ top: 0, behavior: "smooth" });
+};
